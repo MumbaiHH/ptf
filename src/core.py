@@ -115,29 +115,17 @@ grab_version = "1.9.2"
 # banner
 banner = bcolors.RED + r"""
 
-                     ______  __ __    ___
-                    |      T|  T  T  /  _]
-                    |      ||  l  | /  [_
-                    l_j  l_j|  _  |Y    _]
-                      |  |  |  |  ||   [_
-                      |  |  |  |  ||     T
-                      l__j  l__j__jl_____j
-
- ____     ___  ____   ______    ___   _____ ______    ___  ____    _____
-|    \   /  _]|    \ |      T  /  _] / ___/|      T  /  _]|    \  / ___/
-|  o  ) /  [_ |  _  Y|      | /  [_ (   \_ |      | /  [_ |  D  )(   \_
-|   _/ Y    _]|  |  |l_j  l_jY    _] \__  Tl_j  l_jY    _]|    /  \__  T
-|  |   |   [_ |  |  |  |  |  |   [_  /  \ |  |  |  |   [_ |    \  /  \ |
-|  |   |     T|  |  |  |  |  |     T \    |  |  |  |     T|  .  Y \    |
-l__j   l_____jl__j__j  l__j  l_____j  \___j  l__j  l_____jl__j\_j  \___j
-
- _____  ____    ____  ___ ___    ___  __    __   ___   ____   __  _
-|     ||    \  /    T|   T   T  /  _]|  T__T  T /   \ |    \ |  l/ ]
-|   __j|  D  )Y  o  || _   _ | /  [_ |  |  |  |Y     Y|  D  )|  ' /
-|  l_  |    / |     ||  \_/  |Y    _]|  |  |  ||  O  ||    / |    \
-|   _] |    \ |  _  ||   |   ||   [_ l  `  '  !|     ||    \ |     Y
-|  T   |  .  Y|  |  ||   |   ||     T \      / l     !|  .  Y|  .  |
-l__j   l__j\_jl__j__jl___j___jl_____j  \_/\_/   \___/ l__j\_jl__j\_j
+  __  __                 _     _      _  ___ _   
+ |  \/  |               | |   | |    | |/ (_) |  
+ | \  / |_   _ _ __ ___ | |__ | | ___| ' / _| |_ 
+ | |\/| | | | | '_ ` _ \| '_ \| |/ _ \  < | | __|
+ | |  | | |_| | | | | | | |_) | |  __/ . \| | |_ 
+ |_|  |_|\__,_|_| |_| |_|_.__/|_|\___|_|\_\_|\__|
+  For Shutting down networks, one bitch slap
+  at a time :D
+  (yes i stole it from PFT fuck you)
+                                                 
+                                                 
 """
 
 banner += bcolors.ENDC + """
@@ -168,10 +156,10 @@ banner += bcolors.BOLD + """\n              The easy way to get the new and shin
 banner += "             Total module/tool count within PTF: " + \
     bcolors.BOLD + str(count_modules()) + bcolors.ENDC + "\n"
 banner += """
-All tools are downloaded directly from the developers websites as-is.  PTF 
+All tools are downloaded directly from the developers websites as-is.  MumbleKit 
 doesn't perform any type of source code analysis or verification on the tools.
 You should run these after performing your own analysis of the tools and ensure 
-you trust the parties. PTF only adds tools that are well-known typically in the 
+you trust the parties. MumbleKit only adds tools that are well-known typically in the 
 security industry but that does not negate the risk. This is no different than 
 any other tool distribution platform, operating system, or anything you would 
 download from the Internet.\n"""
@@ -249,8 +237,8 @@ def show_help_menu():
 
 # exit message for PTF
 def exit_ptf():
-    print_status("Exiting PTF - the easy pentest platform creation framework.")
-    set_title("Hack the Planet!")
+    print_status("Exiting Mumblekit - the jihadi pentest framework :D.")
+    set_title("Hack the Fucking Planet!")
 
 
 # this is the main handler to check what distribution we are using
@@ -447,7 +435,7 @@ def auto_update():
             "Finished with normal package updates, moving on to the tools section..")
     else:
         print_status(
-            "Auto updating for packages is turned off, to enable go to PTF and config directory and turn AUTO_UPDATE to ON.")
+            "Auto updating for packages is turned off, to enable go to MumbleKit and config directory and turn AUTO_UPDATE to ON.")
 
 # check if a blank directory exists
 def check_blank_dir(path):
