@@ -37,7 +37,7 @@ def check_internet():
 if not os.path.isdir("/usr/local/bin/"): os.makedirs("/usr/local/bin/")
 
 if os.geteuid() != 0:
-    print("\nThe Pentesters Framework (PTF) - by David Kennedy (ReL1K)")
+    print("\nThe MumbleKit -> Really gay kit by twitter.com/Mumbais_")
     print("\nThis needs to be run as root. Please sudo it up! Exiting...")
     exit()
 
@@ -49,9 +49,9 @@ try:
         if check_internet() == 0:
             print ("[!] Unable to detect Internet connection. Needed for PTF.")
             print (
-                "[!] We will now exit PTF. Launch again when you got a connection.")
+                "[!] We will now exit MumbleKit. Launch again when you got a connection.")
             print (
-                "[!] You can also run ptf with the --no-network-connection argument to bypass the network check.")
+                "[!] You can also run MumbleKit with the --no-network-connection argument to bypass the network check.")
             sys.exit()
 
         # try to update ourself first
@@ -74,7 +74,7 @@ try:
 
 except KeyboardInterrupt:
     print("\n")
-    print("[*] Exiting PTF - the easy pentest platform creation framework.")
+    print("[*] Exiting MumbleKit - the easy pentest platform creation framework.")
     exit()
     sys.exit()
 
